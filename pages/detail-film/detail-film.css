@@ -1,0 +1,95 @@
+.movieDetail__top {
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.movieList h2 {
+    font-size:1.6rem;
+    margin-bottom: 20px;
+}
+
+.movieDetail__top--container-img {
+    width: 100%;
+    height: 40rem;
+    background: url(https://i.ytimg.com/vi/mA5P4aK9jvs/maxresdefault.jpg) no-repeat center; 
+    background-size: cover; 
+    background-position: top;
+} 
+
+.movieDetail__top--container-summary {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+
+.container__summary--sinopsis-uno h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #fff;
+    width: 80%;
+}
+
+.container__summary--sinopsis-uno span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #46d369;
+    width: 80%;
+}
+
+.container__summary--sinopsis-dos p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container__summary--sinopsis-dos span {
+    font-size: 0.7rem;
+    color: #777;
+}
+
+
+
+@media (min-width: 1024px) {
+
+    .movieList h2 {
+        font-size:2.2rem;
+        margin-bottom: 20px;
+    }
+
+    .movieDetail__top {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .container__summary--sinopsis-uno h3 {
+        font-size: 1.1rem;
+        width: 70%;
+    }
+
+    .container__summary--sinopsis-uno span {
+        font-size: 1.1rem;
+    }
+
+    .container__summary--sinopsis-dos p {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .container__summary--sinopsis-dos span {
+        font-size: 0.9rem;
+        color: #777;
+    }
+
+}
+
+

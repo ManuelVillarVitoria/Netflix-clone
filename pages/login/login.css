@@ -1,0 +1,98 @@
+body {
+    font-size: 0.8rem;
+    background-color: black;
+    color:#000
+}
+
+.header {
+    background-color: black;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.login__form--container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form input {
+    border-radius: 4px;
+    border: 0;
+    line-height: 30px;
+    padding: 20px 16px 0;
+    color:#000;
+    font-size: 0.8rem;
+    margin: 10px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    padding: 16px;
+    background-color: #e50914;
+}
+
+.login__form--password,
+.login__form--container-checkbox label {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.login__form--password a {
+    text-decoration: none;
+ }
+
+.login__form--password:hover {
+   text-decoration: underline;
+}
+
+.login__form--container-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media (min-width: 768px) {
+
+    body{
+        width: 100%;
+        background: url(https://assets.nflxext.com/ffe/siteui/vlv3/9be55430-39e9-4841-8d38-7b3f5acf4c97/621ff153-5d5b-4a75-9a9c-7cb676da970e/ES-es-20201207-popsignuptwoweeks-perspective_alpha_website_small.jpg) no-repeat center; 
+        background-size: cover; 
+    } 
+
+    .header{
+        background-color: transparent;
+    } 
+
+    .login__form--container {
+        width: 380px;
+        margin: 0 auto;
+        background-color: rgb(29, 26, 26);
+        height: 660px;
+        border-radius:8px;
+        padding: 0px 9px 0px 9px;
+    }

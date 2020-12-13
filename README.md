@@ -1,13 +1,13 @@
 # `KEEPCODING BOOTCAMP`
 
 
-## ✒️ Práctica de HTML5 y CSS3 
+## ✒️ Práctica de Fundamentos de HTML5 y CSS3.
 
 <br />
 
-**Clon de la página de Home de Netflix, formulario de resgistro y página de detalle película**<br />
+**Clon de Netflix, que incluye 3 rutas (página de inicio, página de detalle una película y formulario de resgistro.**<br />
    
-   
+**Deploy:** https://boring-leakey-e15401.netlify.app/index.html <br />
 
 
 ## Expressions of gratitude 🎁
